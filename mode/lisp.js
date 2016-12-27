@@ -90,7 +90,6 @@ var LispHighlightRules = acequire("./lisp_highlight_rules").LispHighlightRules;
 
 var Mode = function() {
     this.HighlightRules = LispHighlightRules;
-    this.$behaviour = this.$defaultBehaviour;
 };
 oop.inherits(Mode, TextMode);
 
